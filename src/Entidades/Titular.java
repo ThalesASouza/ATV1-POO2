@@ -2,7 +2,12 @@ package Entidades;
 
 public class Titular {
 	
-	
+	@Override
+	public String toString() {
+		return "Titular [nome=" + nome + ", cpf=" + cpf + "]";
+	}
+
+
 	private String nome;
 	private String cpf;
 	
